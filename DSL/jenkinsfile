@@ -15,7 +15,7 @@ pipline{
         }
         stage('Deploy'){
             steps{
-                echo 'Hi this is the first step'
+                echo 'Hi this is the final step of this pipeline'
                 echo 'Deploying the application'
             }
         }
