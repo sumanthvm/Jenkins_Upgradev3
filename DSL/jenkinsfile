@@ -1,0 +1,23 @@
+pipline{
+    agent any
+    stages{
+        stage('Init'){
+            steps{
+                echo 'Hi this is the first step'
+                echo 'Initiating the pipeline'
+            }
+        }
+        stage('Build'){
+            steps{
+                echo 'Hi this is the Second step'
+                echo 'Building the application'
+            }
+        }
+        stage('Deploy'){
+            steps{
+                echo 'Hi this is the first step'
+                echo 'Deploying the application'
+            }
+        }
+    }
+}
