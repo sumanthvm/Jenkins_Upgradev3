@@ -1,4 +1,4 @@
-job('First-Maven-Project-DSL'){
+job('First-Maven-Project-DSL1'){
     description("This is the first job created using the DSL jenkins file on ${new Date()}")
     scm{
         github("https://github.com/sumanthvm/Jenkins_Upgradev3.git", 'master')
